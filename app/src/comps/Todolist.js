@@ -17,7 +17,7 @@ function Todolist() {
     return (
         <div>
             <input type="text" placeholder="whats on the list!?" onChange={handleInputChange}/>
-            <button onClick={handleClick}>Add Todo!</button>
+            <button onClick={handleClick}>Add to list!</button>
             <ul>
                 {items.map(items => {
                     return <li key={items}>{items}</li>
