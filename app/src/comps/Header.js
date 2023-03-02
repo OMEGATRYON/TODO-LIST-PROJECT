@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
     return (
         <div>
-        <h1 className="textCenter">TODOs!</h1>
+        <h1 style={{ fontSize: "5rem" }}>TODOs!</h1>
         </div>
     )
 }
